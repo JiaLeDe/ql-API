@@ -5,7 +5,7 @@
 
 
 ### 一：获取环境变量的值
-##### 1.首先获取token，在ql/config/auto.json中，token的值
+##### 1.首先获取token，在ql/config/auto.json中，token的值(现已可自动获取，必须将脚本放到ql/scricp目录下)
 ##### 2.发送请求的目标url格式：http://ip:端口/api/envs
 ##### 3.请求头格式：header={'Authorization':'Bearer '+token}，token的值是1中获取到的，可以不使用UA。
 ##### 4.向url发送get请求，获取到环境变量的值，类型如下：
